@@ -48,7 +48,7 @@ export default class MovieCards extends React.Component {
     const query = this.state.search;
     console.log(query)
     axios
-      .get("http://www.omdbapi.com/?apikey=c705803f&s=" + query, {
+      .get("https://www.omdbapi.com/?apikey=c705803f&s=" + query, {
         headers: {},
       })
       .then((res) => {
