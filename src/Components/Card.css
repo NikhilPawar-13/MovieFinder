@@ -1,0 +1,23 @@
+.card{
+    width: 300px;
+    height:fit-content;
+}
+
+
+
+.cardImg{
+    margin-top: 24px;
+    width: 250px;
+    height:300px;
+    border-radius: 25px;   
+    border: 5px solid #555;
+}
+
+.cardButton{
+    width:250px;
+    height:50px;
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    margin-bottom: 24px;
+}
